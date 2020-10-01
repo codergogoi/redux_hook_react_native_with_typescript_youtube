@@ -30,9 +30,7 @@ const AppNavigation = createAppContainer(switchNavigator);
 export default function App() {
   return (
     <Provider store={store}>
-      <AppNavigation>
-        <Login />
-      </AppNavigation>
+      <AppNavigation />
     </Provider>
   );
 }
